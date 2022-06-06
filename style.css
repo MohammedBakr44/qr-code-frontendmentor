@@ -10,16 +10,14 @@
     width: 100vw;
     height: 100vh;
     background-color: #d5e1ef;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container__card {
     width: 300px;
     height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     background-color: #fff;
     padding: 10px;
     text-align: center;
@@ -46,10 +44,4 @@
     font-weight: lighter;
     color: #969da8;
     padding: 10px;
-}
-
-@media screen and (max-width:600px) {
-    .container__card {
-        width: 80vw;
-    }
 }
