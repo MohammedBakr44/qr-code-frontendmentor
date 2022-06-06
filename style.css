@@ -21,8 +21,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
-    padding: 20px;
-    /* overflow: hidden; */
+    padding: 10px;
     text-align: center;
     border-radius: 10px;
     box-shadow: 2px 12px 20px rgba(0, 0, 0, 0.5);
@@ -31,8 +30,7 @@
 }
 
 .container__card__image {
-    width: 250px;
-    height: 250px;
+    width: 98%;
     margin-bottom: 20px;
     border-radius: 10px;
 }
@@ -47,6 +45,7 @@
     margin-bottom: 20px;
     font-weight: lighter;
     color: #969da8;
+    padding: 10px;
 }
 
 @media screen and (max-width:600px) {
